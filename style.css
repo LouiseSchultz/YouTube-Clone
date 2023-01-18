@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 10px;
+  padding-top: 15px; 
+  padding-bottom: 15px;
+   position: fixed;
+}
+.youtubelogo img {
+  height: 60px;
+  margin: 7px;
+  margin-left: 50px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.searchinput {
+  outline: none;
+  padding: 4px;
+  width: 30em;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.searchinput::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.microphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: rgb(236, 233, 233);
+}
+.searchicon {
+  padding: 7px;
+  border: 1px solid grey;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 200px;
+  height: 100vh;
+}
+.field-main {
+  margin-top: 10px;
+  position: fixed;
+  top: 55px;
+  left: 30px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.field:hover {
+  background-color: rgb(219, 213, 213);
+  display: flex;
+  transform: scale(1.1);
+  outline: 1px solid grey;
+}
+
+p {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.video img {
+  width: 15vw;
+  border-radius: 10%;
+  height: auto;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin: 2px;
+}
+.name,
+.views {
+  display: flex;
+  color: rgb(86, 81, 81);
+  justify-content: center;
+  font-size: 10px;
+}
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  flex: 1;
+  margin-left: 40px;
+  width: 100%;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 5px;
+  cursor: pointer;
+}
+
