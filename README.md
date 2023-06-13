@@ -16,7 +16,7 @@ If you would like to share feedback, suggestions or ask me questions regarding t
 
 - Email: louiseschultz@outlook.com
 
-- LinkedIn: [linkedin.com/in/your-username](https://www.linkedin.com/in/louise-schultz-0a3b5b197/)
+- LinkedIn: https://www.linkedin.com/in/louise-schultz-0a3b5b197/
 
 *Thank you for sharing your thoughts on my projects!*
 
